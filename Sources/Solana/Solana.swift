@@ -26,7 +26,7 @@ public class Solana {
 }
 
 public class Api {
-    internal let router: SolanaRouter
+    public let router: SolanaRouter
     internal let supportedTokens: [Token]
 
     public init(router: SolanaRouter, supportedTokens: [Token]) {
